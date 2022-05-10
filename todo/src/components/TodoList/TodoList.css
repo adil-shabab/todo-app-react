@@ -1,7 +1,12 @@
 ul{
     margin-top: 25px;
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
 }
+
 ul li{
     width: 320px;
     height: 40px;
@@ -12,6 +17,7 @@ ul li{
     color: #0d4955;
     margin-bottom: 15px;
     display: flex;
+    
     justify-content: space-between;
     padding: 5px;
     align-items: center;
