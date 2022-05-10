@@ -1,10 +1,12 @@
-
+import {useState} from 'react'
 import './Form.css'
 
 function Form({input, setInput, todos, setTodos}) {
+    const [count, setCount] = useState(1);
     const onFormSubmit=(e)=>{
+        setCount(count+1)
         e.preventDefault()
-        setTodos([...todos,{title:input, completed:false}])
+        setTodos([...todos,{id:count, title:input, completed:false}])
         console.log(todos)
         setInput("")
     }

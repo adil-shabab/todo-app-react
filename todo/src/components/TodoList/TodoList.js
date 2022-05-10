@@ -1,7 +1,8 @@
 import React from "react";
 import "./TodoList.css";
 
-function TodoList({ todos, setTodos, setEditTodo}) {
+function TodoList({ todos, setTodos }) {
+
 
 
 
@@ -21,13 +22,6 @@ function TodoList({ todos, setTodos, setEditTodo}) {
     const handleDelete=({id})=>{
         setTodos(todos.filter((todo)=>todo.id !==id))
     }
-
-    const handleEdit=({id})=>{
-        const findTodo = todos.find((todo)=>todo.id === id)
-        setEditTodo(findTodo)
-        console.log(findTodo)
-    }
-
   return (
   <div className="list">
       <ul>
@@ -37,7 +31,7 @@ function TodoList({ todos, setTodos, setEditTodo}) {
           {todo.title} 
 
           <i onClick={()=> handleComplete(todo)}  className="fa-solid fa-circle-check"></i>
-          <i onClick={()=>handleEdit(todo)} className="fa-solid fa-pen-to-square"></i>
+          <i className="fa-solid fa-pen-to-square"></i>
           <i onClick={()=>handleDelete(todo)} className="fa-solid fa-trash-can"></i>
         </li>
         )
