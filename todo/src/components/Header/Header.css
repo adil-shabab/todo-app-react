@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #056679;
+    width: 100%;
+    min-height: 100vh;
+}
+h2{
+    font-weight: bold;
+    color: #0d4955;
+}
+
