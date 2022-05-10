@@ -1,0 +1,26 @@
+ul{
+    margin-top: 25px;
+    width: 95%;
+}
+ul li{
+    width: 320px;
+    height: 40px;
+    list-style: none;
+    font-size: 20px;;
+    background: #106879;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    color: #0d4955;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    position: relative;
+}
+ul li i{
+    cursor: pointer;
+}
+.fa-pen-to-square{
+    position: absolute;
+    right: 30px;
+}
