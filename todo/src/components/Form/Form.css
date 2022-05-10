@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.todo-container{
+
+    width: 400px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+input{
+    height: 38px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    background: #056679;
+    outline: none;
+    border: none;
+    color: #0f3841;
+    padding: 5px;
+}
+
+button{
+    width: 100px;
+}
+
+
