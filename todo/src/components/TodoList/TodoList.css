@@ -34,3 +34,6 @@ ul li i{
     position: absolute;
     right: 60px;
 }
+.active{
+    color: black;
+}
