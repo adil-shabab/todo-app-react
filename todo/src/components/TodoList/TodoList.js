@@ -31,7 +31,6 @@ function TodoList({ todos, setTodos }) {
           {todo.title} 
 
           <i onClick={()=> handleComplete(todo)}  className="fa-solid fa-circle-check"></i>
-          <i className="fa-solid fa-pen-to-square"></i>
           <i onClick={()=>handleDelete(todo)} className="fa-solid fa-trash-can"></i>
         </li>
         )
